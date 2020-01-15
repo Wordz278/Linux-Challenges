@@ -1,0 +1,61 @@
+TASK 1
+
+What do i see: The ls command shows the files that are in the current folder.
+
+what is it used for: It is used to display the current files and information about the files in the current directory.
+
+What do I See : /home/recruit The pwd command display the full path of the current directory im working on or im in.
+
+What is it used for: The pwd command is used to display the current full path of the directory you are currently in or working in.
+
+Commands used to make the directory workspace and cd from the ~/ (Home directory): ~$ ls ~$ mkdir workspace ~$ ls ~$ cd workspace ~$ ls
+
+What do i see: The new created directory is empty since no files are created in the new directory.
+
+command to create README.md ~$ touch README.md
+
+Command to copy the README.md file and give it a new name. ~$ cp README.md CHNAGELOG.md
+
+Task 2
+
+creating exercise.md file and moving to /tmp folder using relative pathname ~$ touch exercise.md ~$ mv exercise.md ../../tmp
+
+delete exercise.md file using an absolute pathname
+~$ rm /tmp/exercise.md
+
+Task 3
+
+creating the 3 files, to exit writing/editing is ctrl+D. ~$ cat > umuzi.md ~$ cat > recruits.md ~$ cat > cohort.md
+
+Concatenation : ~$ cat > umuzi.md recruits.md cohort.md
+
+Creation of Summary.md with all requirements ~$ cat umuzi.md recruits.md cohort.md ->> summary.md The End
+
+viewing the summary file ~$ cat summary.md
+
+Task 4
+
+Find a file named umuzi ~$ locate -b umuzi
+
+Save results on search_result.md ~$ locate -b umuzi >> search_result.md ~$ ~ls
+
+view the search_result.md ~$ cat search_result.md
+
+Task 5
+
+~$ touch ~/Documents/pad.md
+~$ cd ~/Desktop ~/Desktop$ mkdir work
+~/Desktop$ cp ~/Documents/pad.md pad_copy.md
+~/Desktop$ sudo updatedb
+~/Desktop$ cd -
+~$ locate -b pad_copy.md
+Task 6
+
+~$ find ~/ -name *.pdf
+~$ find ~/ -name *.pdf >> ~/Desktop/find_results.md
+~$ find ~/ -mtime -1 -ls
+Task 7
+
+~$ nano my_bio.md
+To Save = CTRL+O To Exit = CTRL+X
+~$ mkdir my_files ~$ mv my_bio my_files
