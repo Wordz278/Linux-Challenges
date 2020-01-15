@@ -60,7 +60,7 @@ Task 4
     ~$ locate -b umuzi
 2. Save results on search_result.md
     ~$ locate -b umuzi >> search_result.md
-    ~ls
+    ~$ ~ls
     
     view the search_result.md
     ~$ cat search_result.md
@@ -70,7 +70,7 @@ Task 5
 2.  ~$ cd ~/Desktop
     ~/Desktop$ mkdir work
 3.  ~/Desktop$ cp ~/Documents/pad.md pad_copy.md
-4.  ~/Desktop$ locate updatedb
+4.  ~/Desktop$ sudo updatedb
 5.  ~/Desktop$ cd -
 6.  ~$ locate -b pad_copy.md    
 
